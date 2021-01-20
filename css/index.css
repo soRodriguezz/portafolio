@@ -1,0 +1,79 @@
+.nav-enlace{
+  display: inline-block;
+  background: #474747;
+  color: #000;
+  padding: 10px 30px;
+  text-decoration: none;
+  background-color: transparent;
+  font-family: Verdana;    
+}
+
+.nav-enlace:hover{
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.877),
+    rgba(255, 255, 255, 0.877)
+  );
+  border-radius: 0.8rem;
+}
+
+nav{
+  display: block;
+  border-radius: 1rem;
+  text-align: center;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  z-index: 2;
+  backdrop-filter: blur(2rem);
+}
+
+.nav-button{
+  color: #000;
+  padding: 10px 0;
+  display: none; 
+  font-family: Verdana;
+  font-size: 16px;
+}
+
+body {
+  background-image: url(../images/back.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(12, 8, 8, 0.3)
+  );;
+}
+
+@media (max-width: 600px){
+  nav{
+    flex-direction: column;
+    display:flex;
+  }
+
+  .nav-enlace{
+    margin: 10px 0;  
+  }
+
+  .nav-button{
+    display: inline-block;
+    border-radius: 1rem;
+    border: none;
+    background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+    ); 
+    background: transparent;   
+  }
+
+  .desaparece{
+    display: none;
+  }
+}
