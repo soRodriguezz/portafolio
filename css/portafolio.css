@@ -2,12 +2,12 @@
 .galeria {
     display: flex;
     flex-wrap: wrap;
-    padding: 10px 20px;
+    padding: 20px 0px 0px 20px;
 }
 
 .columna {
-    flex: 25%;
-    max-width: 25%;
+    flex: 24%;
+    max-width: 24%;
     padding: 0 4px;
 }
 
