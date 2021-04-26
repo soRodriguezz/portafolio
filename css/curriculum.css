@@ -36,7 +36,8 @@ main {
   padding-bottom: 3rem;
   font-family: "Poppins", sans-serif;
   min-height: 100vh;
-  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  background: linear-gradient(to left, #00b4db, #0083b0);
+  /* background-image: url(../img/back.jpg); */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -107,13 +108,16 @@ main {
 
 /*DATOS*/
 .pro {
-  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  background: linear-gradient(
+    to left top,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.5)
+  );
+  border-radius: 0.4rem;
+  margin: 0.3rem 0rem;
+  padding: 0.32rem;
   box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
-  border-radius: 1rem;
-  padding: 1rem;
-  position: relative;
-  margin: 6%;
-  width: 100%;
+  justify-content: space-between;
   text-align: left;
 }
 
@@ -143,7 +147,7 @@ main {
 /*CARDS DE CONOCIMIENTOS*/
 
 .prop {
-  color:#576f91;
+  color:#007ca5;
 }
 
 .card {
@@ -165,7 +169,7 @@ main {
 }
 
 .progress {
-  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  background: linear-gradient(to right top, #00b4db, #009bcf);
   width: 100%;
   height: 7px;
   border-radius: 1rem;
@@ -189,7 +193,7 @@ main {
 
 .percentage {
   font-weight: bold;
-  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  background: linear-gradient(to right top, #00b4db, #009bcf);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -201,7 +205,7 @@ main {
   font-weight: bold;
   border-radius: 1rem;
   padding: 15px;
-  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  background: linear-gradient(to right top, #00b4db, #009bcf);
   color: #576f91;
   text-decoration: none;
   margin-bottom: 1rem;
@@ -228,7 +232,7 @@ body::-webkit-scrollbar {
 
 /* HOVER */
 .download:hover{
-  background: linear-gradient(to right top,  #55c0ac ,#4ea1ad);
+  background: linear-gradient(to right top,  #00d0ff, #00bfff);
 }
 
 .hover-p:hover{

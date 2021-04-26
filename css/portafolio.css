@@ -1,3 +1,4 @@
+
 .galeria {
     display: flex;
     flex-wrap: wrap;
@@ -5,8 +6,8 @@
 }
 
 .columna {
-    flex: 32%;
-    max-width: 32%;
+    flex: 25%;
+    max-width: 25%;
     padding: 0 4px;
 }
 
@@ -79,7 +80,18 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1440px) {
+    .columna {
+        flex: 32%;
+        max-width: 32%;
+    }
+
+    .slideshow img {
+        width: 98%;
+    }
+}
+
+@media screen and (max-width: 950px) {
     .columna {
         flex: 40%;
         max-width: 50%;

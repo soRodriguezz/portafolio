@@ -18,11 +18,16 @@ document.addEventListener('DOMContentLoaded', function () {
     Array.from(galeria_imagenes).forEach(img => {
         img.addEventListener('click', event => {
             const imagen_seleccionada = +event.target.dataset.imgMostrar;
-            img_slideshow.src = imagenes[imagen_seleccionada];
+            img_slideshow.src = imagenes[imagen_seleccionada].img;
             contador = imagen_seleccionada;
             overlay.style.opacity = 1;
             overlay.style.visibility = 'visible';
         });
+    });
+
+    document.querySelector('.btn_cerrar').addEventListener('click', () => {
+        overlay.style.opacity = 0;
+        overlay.style.visibility = 'hidden';
     });
 
 });
