@@ -1,14 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portafolio</title>
-    <link rel="stylesheet" href="../css/index.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
     <link rel="stylesheet" href="../css/portafolio.css" />
+    
   </head>
 
   <body>
+    <div class="overlay">
+        <div class="slideshow">
+            <span class="btn_cerrar">&times;</span>
+            <img src="" alt="" id="img_slideshow">
+        </div>
+    </div>
+
     <nav>
       <button class="nav-button" onclick="accion()">Menu</button>
       <a href="../index.html" class="nav-enlace desaparece">Inicio</a>
@@ -17,9 +25,22 @@
       <a href="./contacto.html" class="nav-enlace desaparece">Contacto</a>
     </nav>
 
-    
+    <section class="galeria">
+      <div class="columna">
+        <img src="../img/1.png" alt="" data-images-mostrar="0" />
+        <img src="../img/2.png" alt="" data-images-mostrar="1" />
+      </div>
+      <div class="columna">
+        <!-- <img src="../images/1.png" alt="" data-images-mostrar="2" />
+        <img src="../images/2.png" alt="" data-images-mostrar="3" /> -->
+      </div>
+      <div class="columna">
+        <!-- <img src="../images/1.png" alt="" data-images-mostrar="4" />
+        <img src="../images/2.png" alt="" data-images-mostrar="5" /> -->
+      </div>
+    </section>
 
     <script src="../js/nav.js"></script>
-    <script src="../js/modal.js"></script>
+    <script src="../js/portafolio.js"></script>
   </body>
 </html>
