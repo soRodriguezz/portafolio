@@ -117,6 +117,7 @@ main {
   text-align: left;
 }
 
+
 .pro h2 {
   width: 40%;
   color:#576f91;
@@ -140,6 +141,11 @@ main {
 }
 
 /*CARDS DE CONOCIMIENTOS*/
+
+.prop {
+  color:#576f91;
+}
+
 .card {
   display: flex;
   background: linear-gradient(
@@ -209,7 +215,7 @@ main {
 }
 
 /*SELECION DE TEXTO DE OTRO COLOR*/
-.img::selection, .download::selection, p::selection, body::selection, h1::selection, h2::selection, h3::selection, li::selection, b::selection {
+.img::selection, .download::selection, p::selection, body::selection, h1::selection, h2::selection, h3::selection, li::selection, b::selection, br::selection {
   background: #6cdbeb;
   color: #000;
 }
