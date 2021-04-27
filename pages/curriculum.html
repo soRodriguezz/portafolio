@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Curriculum</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="../css/styles.css">
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
       rel="stylesheet"
@@ -13,10 +14,26 @@
   </head>
 
   <body style="overflow-x: hidden">
+
+
+    <nav>
+      <button class="nav-button" onclick="accion()">Menu</button>
+      <a href="../index.html" class="nav-enlace desaparece">Inicio</a>
+      <a href="./portafolio.html" class="nav-enlace desaparece">Portafolio</a>
+      <a href="./curriculum.html" class="nav-enlace desaparece">Curriculum</a>
+      <a href="./contacto.html" class="nav-enlace desaparece">Contacto</a>
+    </nav>
+  
+    
+      <!--CIRCULOS BACK-->
+      <div class="circle1"></div>
+      <div class="circle2"></div>
+
+
     <main>
       <section class="glass">
         <div class="dashboard">
-          <a class="download" href="../index.html">Volver</a>
+          <!-- <a class="download" href="../index.html">Volver</a> -->
           <!--NOMBRE Y CARGO-->
           <div class="user">
             <img
@@ -332,5 +349,7 @@
     <!--CIRCULOS BACK-->
     <div class="circle1"></div>
     <div class="circle2"></div>
+
+    <script src="../js/nav.js"></script>
   </body>
 </html>

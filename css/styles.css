@@ -11,8 +11,8 @@
 .nav-enlace:hover{
   background: linear-gradient(
     to right bottom,
-    rgba(255, 255, 255, 0.877),
-    rgba(255, 255, 255, 0.877)
+    rgba(255, 255, 255, 0.205),
+    rgba(255, 255, 255, 0.26)
   );
   border-radius: 0.8rem;
 }
