@@ -1,10 +1,15 @@
-/*ETIQUETAS PRINCIPALES*/
+/* ETIQUETAS PRINCIPALES*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+header {
+  margin: 8px;
+  padding: 0px;
+  box-sizing: border-box;
+}
 
 h1 {
   color: #426696;
@@ -37,12 +42,11 @@ main {
   padding-bottom: 3rem;
   font-family: "Poppins", sans-serif;
   min-height: 100vh;
-  background: linear-gradient(to left, #00b4db, #0083b0);
+  /* background: linear-gradient(to left, #00b4db, #0083b0); */
   /* background-image: url(../img/back.jpg); */
   display: flex;
   align-items: center;
   justify-content: center;
-  
 }
 
 /*VENTANA GLASS*/
@@ -61,30 +65,6 @@ main {
   display: flex;
 }
 
-/*CIRCULOS BACKGROUND*/
-.circle1,
-.circle2 {
-  background: white;
-  background: linear-gradient(
-    to right bottom,
-    rgba(255, 255, 255, 0.8),
-    rgba(255, 255, 255, 0.3)
-  );
-  height: 20rem;
-  width: 20rem;
-  position: absolute;
-  border-radius: 50%;
-}
-
-.circle1 {
-  top: 5%;
-  right: 5%;
-}
-.circle2 {
-  bottom: 5%;
-  left: 10%;
-}
-
 /*DASHBOARD*/
 .dashboard {
   flex: 1;
@@ -101,7 +81,6 @@ main {
   );
   border-radius: 2rem;
 }
-
 
 /*PERFIL*/
 .user {

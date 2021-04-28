@@ -5,7 +5,8 @@
   padding: 10px 30px;
   text-decoration: none;
   background-color: transparent;
-  font-family: Verdana;    
+  font-family: Verdana;   
+  
 }
 
 .nav-enlace:hover{
@@ -15,6 +16,7 @@
     rgba(255, 255, 255, 0.26)
   );
   border-radius: 0.8rem;
+  
 }
 
 nav{
@@ -28,6 +30,9 @@ nav{
   );
   z-index: 2;
   backdrop-filter: blur(2rem);
+  margin: 3px;
+  padding: 4px;
+  box-sizing: border-box;
 }
 
 .nav-button{
@@ -37,7 +42,7 @@ nav{
   font-family: Verdana;
   font-size: 16px;
   /* position:absolute;  */
-  /* z-index:1; */
+  
 }
 
 /*CIRCULOS BACKGROUND*/
@@ -53,7 +58,7 @@ nav{
   width: 20rem;
   position: absolute;
   border-radius: 50%;
-  z-index: -3;
+  z-index: -1;
 }
 
 .circle1 {
